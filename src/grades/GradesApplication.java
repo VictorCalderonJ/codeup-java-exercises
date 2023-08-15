@@ -1,13 +1,13 @@
 package grades;
 
+import javax.swing.text.SimpleAttributeSet;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Scanner;
 
 
 public class GradesApplication {
-
-
 
     public static void main(String[] args) {
 
@@ -31,8 +31,6 @@ public class GradesApplication {
         UserName4.addGrade(100);
         UserName4.addGrade(80);
         UserName4.addGrade(100);
-
-
 
         HashMap<String, Student> students = new HashMap<>();
         students.put("UserName1", UserName1);
@@ -72,6 +70,7 @@ public class GradesApplication {
             }
         }
 
+//        ╔═.✵.════════════════════════════════╗ ╚════════════════════════════════.✵.═╝
 
     }
 }
